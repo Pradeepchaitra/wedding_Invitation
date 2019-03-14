@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
     height: 600px;
-	padding-top: 50px;
+	padding-top: 36px;
   }
   
 }
@@ -1252,7 +1252,7 @@ form label {
   width:100%;
   margin-left:30%;
   box-sizing:border-box;
-   font-family: 'Dosis', sans-serif;
+  font-family:'Slabo 27px', cursive;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
   color: #F14E95;
@@ -1359,6 +1359,7 @@ form label {
     width: 70%;
     float: left;
   }
+
 }
 .feature-left .feature-copy h3 {
   text-transform: uppercase;
@@ -1680,8 +1681,12 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
-    display: block;
+   
   }
+    .owl-carousel .owl-stage-outer
+{
+	height:250px !important;
+}
 }
 
 .btn {
