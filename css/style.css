@@ -1886,7 +1886,7 @@ form label {
 }
 .owl-carousel .owl-stage-outer
 {
-	height:250px !important;
+	height:250px;
 }
 .owl-dots
 {
